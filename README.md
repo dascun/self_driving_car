@@ -4,6 +4,8 @@ Building a self-driving car is a complex task that requires a combination of AI 
 
 1. **Sensor Fusion:** Self-driving cars are equipped with various sensors such as LiDAR (Light Detection and Ranging), cameras, radar, and ultrasonic sensors. Sensor fusion involves combining data from these multiple sensors to create a comprehensive and accurate representation of the car's surroundings.
 
+[Sensor Fusion using Kalman Filter](https://github.com/dascun/self_driving_car/edit/main/sensor_fusion_kf.py)
+
 2. **Perception:** The perception module is responsible for understanding the environment by processing the sensor data. Techniques like computer vision and deep learning are used to identify objects, pedestrians, road lanes, traffic signs, and other relevant features.
 
 3. **Localization:** Localization helps the car determine its precise position on the road. Techniques like GPS, IMU (Inertial Measurement Unit), and odometry are commonly used to achieve this. Particle filters and SLAM (Simultaneous Localization and Mapping) are also used in more advanced systems.
